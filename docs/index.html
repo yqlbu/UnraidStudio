@@ -33,23 +33,7 @@
 		href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
 	/>
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
-	<style>
-		.sidebar {
-			padding: 0 0 0 0;
-		}
-		.app-name {
-			/* background-color: rgb(51, 51, 51); */
-			border-bottom: 3px solid#fa792e;
-			height: 90px;
-		}
-		.app-name-link img {
-			/* width: 100%; */
-			height: 85px;
-		}
-		.seo-pic {
-			display: none;
-		}
-	</style>
+	<link rel="stylesheet" href="./styles.css" />
 	<body>
 		<div id="app">加载中...</div>
 		<script>
@@ -58,13 +42,16 @@
 				// name: "<span>UNRAID CN COMMUNITY</span>",
 				nameLink: "/",
 				loadSidebar: true,
-				// subMaxLevel: 3,
 				repo: "https://github.com/yqlbu/UnraidStudio",
 				logo: "./banner.png",
 				auto2top: true,
 				search: "auto",
 				autoHeader: true,
-				subMaxLevel: 4,
+				loadSidebar: true,
+				subMaxLevel: 1,
+				alias: {
+					"/.*/_sidebar.md": "/_sidebar.md",
+				},
 				notFoundPage: true,
 				themeColor: "#fa792e",
 				formatUpdated: "{YYYY}-{MM}-{DD}",
@@ -88,8 +75,14 @@
 		<!-- Plugins -->
 		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
 		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
+		/>
 		<!-- <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
 	</body>
 </html>

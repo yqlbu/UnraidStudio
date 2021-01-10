@@ -1,0 +1,44 @@
+.content {
+	overflow: auto;
+}
+.content::-webkit-scrollbar {
+	width: 0.3rem;
+}
+.content::-webkit-scrollbar-track {
+	background: transparent;
+}
+.sidebar {
+	padding: 0 0 0 0;
+}
+.app-name {
+	/* background-color: rgb(51, 51, 51); */
+	border-bottom: 3px solid#fa792e;
+	height: 90px;
+}
+.app-name-link img {
+	/* width: 100%; */
+	height: 85px;
+}
+.seo-pic {
+	display: none;
+}
+
+/* custom theme */
+
+summary {
+	outline: none;
+	cursor: pointer;
+	font-size: 15px;
+	margin-bottom: 10px;
+	/* font-weight: bold; */
+}
+.sidebar-nav strong {
+	font-size: 14px;
+}
+.sidebar-nav ul {
+	padding-left: 10px;
+}
+
+.sidebar-nav ul .folder {
+	padding-left: 10px;
+}
