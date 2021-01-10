@@ -24,18 +24,44 @@
 	</head>
 	<link rel="icon" href="./unraid.png" />
 	<title>UNRAID安装使用教程</title>
+	<link
+		rel="stylesheet"
+		href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+	/>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
+	<style>
+		.sidebar {
+			padding: 0 0 0 0;
+		}
+		.app-name {
+			/* padding-top: 20px; */
+			/* background-color: rgb(51, 51, 51); */
+			border-bottom: 3px solid#fa792e;
+		}
+		.app-name-link img {
+			width: 100%;
+		}
+		.seo-pic {
+			display: none;
+		}
+	</style>
 	<body>
 		<div id="app">加载中...</div>
 		<script>
 			window.$docsify = {
 				name: "UNRAID安装使用教程",
 				loadSidebar: true,
+				// subMaxLevel: 2,
 				repo: "https://github.com/yqlbu/UnraidStudio",
-				logo: "./banner.png",
+				// logo: "./banner.png",
 				themeColor: "#fa792e",
 			};
 		</script>
 		<!-- Docsify v4 -->
 		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+		<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
 	</body>
 </html>
