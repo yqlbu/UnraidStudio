@@ -1,10 +1,10 @@
 ## UNRAID 中文文档
 
-<img width="600" src="https://craftassets.unraid.net/uploads/_1200x630_crop_center-center_82_none/seo-unraid.png?mtime=20180827134547&focal=none&tmtime=20190809210449" alt="ArchLinuxStudio_ArchLinuxTutorial"/><br>
+<img width="600" src="https://craftassets.unraid.net/uploads/_1200x630_crop_center-center_82_none/seo-unraid.png?mtime=20180827134547&focal=none&tmtime=20190809210449" alt="ArchLinuxStudio_ArchLinuxTutorial"/>
 
 <br>
 
-包含 `UNRAID` 从安装到日常使用、存储、虚拟机、容器、办公、娱乐、编程、在线媒体剪辑的各个方面，
+包含 `UNRAID` 从安装到日常使用、存储、虚拟机、容器、办公、娱乐、编程、在线媒体剪辑的各个方面，<br>
 让 UNRAID 成为你的专属家用服务器（NAS）系统吧！
 
 提供在线网页文档，承诺健在即更新。
