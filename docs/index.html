@@ -4,6 +4,10 @@
 		<meta charset="UTF-8" />
 		<title>Document</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
 		<meta name="twitter:title" content="UNRAID安装使用教程" />
 		<link
 			rel="stylesheet"
@@ -59,25 +63,29 @@
 				logo: "./banner.png",
 				auto2top: true,
 				search: "auto",
+				autoHeader: true,
+				subMaxLevel: 4,
+				notFoundPage: true,
 				themeColor: "#fa792e",
-				// plugins: [
-				// 	function (hook, vm) {
-				// 		hook.beforeEach(function (html) {
-				// 			var url =
-				// 				"https://github.com/ArchLinuxStudio/ArchLinuxTutorial/blob/master/docs/" +
-				// 				vm.route.file;
+				formatUpdated: "{YYYY}-{MM}-{DD}",
+				plugins: [
+					function (hook, vm) {
+						hook.beforeEach(function (html) {
+							var url =
+								"https://github.com/ArchLinuxStudio/ArchLinuxTutorial/blob/master/docs/" +
+								vm.route.file;
 
-				// 			return (
-				// 				"<blockquote><p>更新日期 {docsify-updated}</p></blockquote>" +
-				// 				"\n" +
-				// 				html
-				// 			);
-				// 		});
-				// 	},
-				// ],
+							return (
+								"<blockquote><p>更新日期 {docsify-updated}</p></blockquote>" +
+								"\n" +
+								html
+							);
+						});
+					},
+				],
 			};
 		</script>
-		<!-- Docsify v4 -->
+		<!-- Plugins -->
 		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
