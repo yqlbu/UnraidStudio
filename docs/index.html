@@ -60,21 +60,21 @@
 				auto2top: true,
 				search: "auto",
 				themeColor: "#fa792e",
-				plugins: [
-					function (hook, vm) {
-						hook.beforeEach(function (html) {
-							var url =
-								"https://github.com/ArchLinuxStudio/ArchLinuxTutorial/blob/master/docs/" +
-								vm.route.file;
+				// plugins: [
+				// 	function (hook, vm) {
+				// 		hook.beforeEach(function (html) {
+				// 			var url =
+				// 				"https://github.com/ArchLinuxStudio/ArchLinuxTutorial/blob/master/docs/" +
+				// 				vm.route.file;
 
-							return (
-								"<blockquote><p>更新日期 {docsify-updated}</p></blockquote>" +
-								"\n" +
-								html
-							);
-						});
-					},
-				],
+				// 			return (
+				// 				"<blockquote><p>更新日期 {docsify-updated}</p></blockquote>" +
+				// 				"\n" +
+				// 				html
+				// 			);
+				// 		});
+				// 	},
+				// ],
 			};
 		</script>
 		<!-- Docsify v4 -->
