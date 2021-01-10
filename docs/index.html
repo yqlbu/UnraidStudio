@@ -34,12 +34,13 @@
 			padding: 0 0 0 0;
 		}
 		.app-name {
-			/* padding-top: 20px; */
 			/* background-color: rgb(51, 51, 51); */
 			border-bottom: 3px solid#fa792e;
+			height: 90px;
 		}
 		.app-name-link img {
-			width: 100%;
+			/* width: 100%; */
+			height: 85px;
 		}
 		.seo-pic {
 			display: none;
@@ -50,11 +51,30 @@
 		<script>
 			window.$docsify = {
 				name: "UNRAID安装使用教程",
+				// name: "<span>UNRAID CN COMMUNITY</span>",
+				nameLink: "/",
 				loadSidebar: true,
-				// subMaxLevel: 2,
+				// subMaxLevel: 3,
 				repo: "https://github.com/yqlbu/UnraidStudio",
-				// logo: "./banner.png",
+				logo: "./banner.png",
+				auto2top: true,
+				search: "auto",
 				themeColor: "#fa792e",
+				plugins: [
+					function (hook, vm) {
+						hook.beforeEach(function (html) {
+							var url =
+								"https://github.com/ArchLinuxStudio/ArchLinuxTutorial/blob/master/docs/" +
+								vm.route.file;
+
+							return (
+								"<blockquote><p>更新日期 {docsify-updated}</p></blockquote>" +
+								"\n" +
+								html
+							);
+						});
+					},
+				],
 			};
 		</script>
 		<!-- Docsify v4 -->
@@ -62,6 +82,6 @@
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+		<!-- <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
 	</body>
 </html>
