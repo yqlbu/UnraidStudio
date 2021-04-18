@@ -2,7 +2,10 @@
 
 <img width="600" src="https://craftassets.unraid.net/uploads/_1200x630_crop_center-center_82_none/seo-unraid.png?mtime=20180827134547&focal=none&tmtime=20190809210449" alt="ArchLinuxStudio_ArchLinuxTutorial"/>
 
-<br>
+[![Badge](https://img.shields.io/badge/link-UnraidStudio-orange)](https://yqlbu.github.io/UnraidStudio/) 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyqlbu%2FUnraidStudio&count_bg=%2304BBC4&title_bg=%23555555&icon=&icon_color=%2300DBD8&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Lines](https://img.shields.io/tokei/lines/github/yqlbu/UnraidStudio)](https://img.shields.io/tokei/lines/github/yqlbu/UnraidStudio)
+[![lastcommit](https://img.shields.io/github/last-commit/yqlbu/UnraidStudio)](https://img.shields.io/github/last-commit/yqlbu/UnraidStudio)
 
 包含 `UNRAID` 从安装到日常使用、存储、虚拟机、容器、办公、娱乐、编程、在线媒体剪辑的各个方面，<br>
 让 UNRAID 成为你的专属家用服务器（NAS）系统吧！
