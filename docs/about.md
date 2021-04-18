@@ -1,6 +1,6 @@
 <!-- {docsify-ignore-all} -->
 
-> 关于本文档存在的任何问题以及建议，均可以给作者发送邮件，也可以直接在本页下方留言。
+关于本文档存在的任何问题以及建议，均可以给作者发送邮件，也可以直接在本页下方留言。
 
 - Telegram 电报群 [UNRAID 中文讨论组](https://t.me/unraid_zh)
 - 邮箱 kevinyu211@yahoo.com

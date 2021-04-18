@@ -8,11 +8,11 @@
 			name="viewport"
 			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
 		/>
-		<meta name="twitter:title" content="UNRAID安装使用教程" />
 		<link
 			rel="stylesheet"
-			href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+			href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
 		/>
+		<meta name="twitter:title" content="UNRAID安装使用教程" />
 		<meta
 			name="description"
 			content="UNRAID安装使用教程 包含从基础安装/社区插件/存储/日常/娱乐/拓展功能等"
@@ -21,17 +21,9 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
 		/>
-		<link
-			rel="stylesheet"
-			href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
-		/>
 	</head>
 	<link rel="icon" href="./unraid.png" />
 	<title>UNRAID安装使用教程</title>
-	<link
-		rel="stylesheet"
-		href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
-	/>
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
 	<link rel="stylesheet" href="./styles.css" />
 	<body>
@@ -39,7 +31,7 @@
 		<script>
 			window.$docsify = {
 				name: "UNRAID安装使用教程",
-				// name: "<span>UNRAID CN COMMUNITY</span>",
+				// search: "auto",
 				nameLink: "/",
 				loadSidebar: true,
 				repo: "https://github.com/yqlbu/UnraidStudio",
@@ -47,12 +39,7 @@
 				auto2top: true,
 				search: "auto",
 				autoHeader: true,
-				loadSidebar: true,
 				subMaxLevel: 4,
-				sidebarDisplayLevel: 0, // set sidebar display level
-				alias: {
-					"/.*/_sidebar.md": "/_sidebar.md",
-				},
 				notFoundPage: true,
 				themeColor: "#fa792e",
 				formatUpdated: "{YYYY}-{MM}-{DD}",
@@ -82,13 +69,16 @@
 		<!-- Plugins -->
 		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-		<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+		<!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script> -->
+		<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-		<!-- <link
-			rel="stylesheet"
-			href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
-		/> -->
+		<!-- <script>
+			function change_search_plugin_order() {
+				let search_plugin = document.getElementsByClassName("search")[0];
+				let app_name = document.getElementsByClassName("app-name")[0];
+				search_plugin.parentNode.insertBefore(app_name, search_plugin);
+			}
+			setTimeout(change_search_plugin_order, 1);
+		</script> -->
 	</body>
 </html>

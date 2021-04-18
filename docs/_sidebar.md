@@ -8,37 +8,21 @@
   - [安裝前的准备](/newbie/pre-install)
   - [基础安装](/newbie/installation)
   - [桌面环境与必要应用](/newbie/desktop-setup)
+  - [社区插件](/newbie/plugins)
   - [显卡驱动](/newbie/graphics)
 
-- [**社区插件**](/plugins/README)
+- [**基础**](/basics/README)
 
-  - [基础安装](/rookie/basic_install)
-  - [桌面环境与必要应用](/rookie/DE&App)
-  - [显卡驱动](/rookie/graphic_driver)
-
-- [**存储**](/storage/README)
-
-  - [基础安装](/rookie/basic_install)
-  - [桌面环境与必要应用](/rookie/DE&App)
-  - [显卡驱动](/rookie/graphic_driver)
-
-- [**日常**](/daily/README)
-
-  - [基础安装](/rookie/basic_install)
-  - [桌面环境与必要应用](/rookie/DE&App)
-  - [显卡驱动](/rookie/graphic_driver)
-
-- [**娱乐**](/entertainment/README)
-
-  - [基础安装](/rookie/basic_install)
-  - [桌面环境与必要应用](/rookie/DE&App)
-  - [显卡驱动](/rookie/graphic_driver)
+  - [基础设定](/basics/README)
+  - [存储设定](/basics/storage/README)
+  - [下载工具](/basics/downloads/README)
+  - [影音娱乐](/basics/entertainment/README)
 
 - [**进阶**](/advanced/README)
 
-  - [基础安装](/rookie/basic_install)
-  - [桌面环境与必要应用](/rookie/DE&App)
-  - [显卡驱动](/rookie/graphic_driver)
+  - [虚拟机](/advanced/vm/README)
+  - [高级网络设置](/advanced/network/README)
+  - [PCIE 设备直通](/advanced/passthrough/README)
 
 - [贡献文档与代码](contribution.md)
 
