@@ -11,18 +11,21 @@
   - [社区插件](/newbie/plugins)
   - [显卡驱动](/newbie/graphics)
 
-- [**基础**](/basics/README)
+- [**存储与阵列**](/storage/README)
 
-  - [基础设定](/basics/README)
-  - [存储设定](/basics/storage/README)
+- [**Docker 容器**](/docker/README)
+
   - [下载工具](/basics/downloads/README)
   - [影音娱乐](/basics/entertainment/README)
 
+- [**虚拟机**](/vm/README)
+
 - [**进阶**](/advanced/README)
 
-  - [虚拟机](/advanced/vm/README)
   - [高级网络设置](/advanced/network/README)
   - [PCIE 设备直通](/advanced/passthrough/README)
+
+- [**FAQ**](/FAQ/README)
 
 - [贡献文档与代码](contribution.md)
 
