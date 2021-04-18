@@ -1,6 +1,6 @@
 <!-- {docsify-ignore-all} -->
 
-## UNRAID 安装使用教程
+## UNRAID 安装使用教程 <!-- {docsify-ignore} -->
 
 ---
 
@@ -17,7 +17,7 @@ UNRAID 安装使用教程 包含从基础安装/社区插件/存储/日常/娱�
 - 只要作者还有他的管理员小伙伴健在的话，就会一直更新本文档
 - 每篇文章开始都会贴上相关官方文档作为对照 (如果有的话)
 
-## 什么是 UNRAID?
+## 什么是 UNRAID? <!-- {docsify-ignore} -->
 
 ---
 
@@ -55,7 +55,7 @@ UNRAID 安装使用教程 包含从基础安装/社区插件/存储/日常/娱�
 
 </p></details>
 
-## 为什么使用 UNRAID?
+## 为什么使用 UNRAID? <!-- {docsify-ignore} -->
 
 ---
 

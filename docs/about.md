@@ -8,6 +8,6 @@
 - Github [https://github.com/yqlbu](https://github.com/yqlbu)
 - 官网 [https://unraid.net/](https://unraid.net/)
 
-## 致谢
+## 致谢 <!-- {docsify-ignore} -->
 
 最后要感谢的就是各大开源社区所提供的资源，没有大家的一砖一瓦，就不会有`UNRAID`生态越来越好的今天, 感谢大家。
