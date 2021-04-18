@@ -29,4 +29,4 @@ UNRAID 安装使用教程 包含从基础安装/社区插件/存储/日常/娱�
 
 ## TODO
 
-- 修复 overflow 问题
+- [✓] 修复 overflow 问题
