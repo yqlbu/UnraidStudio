@@ -2,7 +2,7 @@
 
 <img width="600" src="https://craftassets.unraid.net/uploads/_1200x630_crop_center-center_82_none/seo-unraid.png?mtime=20180827134547&focal=none&tmtime=20190809210449" alt="ArchLinuxStudio_ArchLinuxTutorial"/>
 
-[![Lines](https://img.shields.io/tokei/lines/github/yqlbu/UnraidStudio)](https://img.shields.io/tokei/lines/github/yqlbu/UnraidStudio)
+[![Lines](https://img.shields.io/tokei/lines/github/ArchLinuxStudio/ArchLinuxTutorial)](https://img.shields.io/tokei/lines/github/ArchLinuxStudio/ArchLinuxTutorial)
 
 <br>
 
