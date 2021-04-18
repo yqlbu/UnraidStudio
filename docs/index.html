@@ -48,13 +48,20 @@
 				search: "auto",
 				autoHeader: true,
 				loadSidebar: true,
-				subMaxLevel: 1,
+				subMaxLevel: 4,
+				sidebarDisplayLevel: 0, // set sidebar display level
 				alias: {
 					"/.*/_sidebar.md": "/_sidebar.md",
 				},
 				notFoundPage: true,
 				themeColor: "#fa792e",
 				formatUpdated: "{YYYY}-{MM}-{DD}",
+				pagination: {
+					previousText: "上一节",
+					nextText: "下一节",
+					crossChapter: true,
+					crossChapterText: true,
+				},
 				plugins: [
 					function (hook, vm) {
 						hook.beforeEach(function (html) {
@@ -75,14 +82,13 @@
 		<!-- Plugins -->
 		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
+		<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-		<link
+		<!-- <link
 			rel="stylesheet"
 			href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
-		/>
-		<!-- <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
+		/> -->
 	</body>
 </html>
