@@ -2,7 +2,7 @@
 
 <img width="600" src="https://craftassets.unraid.net/uploads/_1200x630_crop_center-center_82_none/seo-unraid.png?mtime=20180827134547&focal=none&tmtime=20190809210449" alt="ArchLinuxStudio_ArchLinuxTutorial"/>
 
-[![Badge](https://img.shields.io/badge/link-UnraidStudio-%orange.svg)](https://yqlbu.github.io/UnraidStudio/) 
+[![Badge](https://img.shields.io/badge/link-UnraidStudio-orange)](https://yqlbu.github.io/UnraidStudio/) 
 [![Lines](https://img.shields.io/tokei/lines/github/yqlbu/UnraidStudio)](https://img.shields.io/tokei/lines/github/yqlbu/UnraidStudio)
 [![lastcommit](https://img.shields.io/github/last-commit/yqlbu/UnraidStudio)](https://img.shields.io/github/last-commit/yqlbu/UnraidStudio)
 
