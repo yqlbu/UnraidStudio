@@ -23,9 +23,7 @@
 
 本工程使用 [`docsify`](https://docsify.js.org/#/) 编写而成。如果想贡献相关代码请先阅读 docsify 的项目文档。
 
-感谢 `[earrmouth](https://github.com/earrmouth)`, `[Shirai Kuroko](https://github.com/Kurokosama)`, `[Minimumax](https://github.com/mptm436)` 对本工程的贡献！！！
-
-本工程使用 yarn 管理依赖，结构非常简单。如果没有接触过，你可能需要简单了解一下[`yarn`](https://classic.yarnpkg.com/en/)
+本工程使用 yarn 管理依赖，结构非常简单。如果没有接触过，你可能需要简单了解一下[`yarn`](https://classic.yarnpkg.com/en/)。
 
 本地调试
 
@@ -33,3 +31,7 @@
 yarn install
 yarn start
 ```
+
+## 工程贡献者 <!-- {docsify-ignore} -->
+
+感谢 [`earrmouth`](https://github.com/earrmouth), [`Shirai Kuroko`](https://github.com/Kurokosama), [`Minimumax`](https://github.com/mptm436) 对本工程的贡献！！！
