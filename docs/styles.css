@@ -1,12 +1,12 @@
-.content {
+/* .content {
 	overflow: auto;
-}
-.content::-webkit-scrollbar {
-	width: 2px;
+} */
+/* .content::-webkit-scrollbar {
+	width: 2em;
 }
 .content::-webkit-scrollbar-track {
 	background: transparent;
-}
+} */
 .sidebar {
 	padding: 0 0 0 0;
 }

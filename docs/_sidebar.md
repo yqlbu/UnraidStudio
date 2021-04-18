@@ -25,8 +25,8 @@
   - [高级网络设置](/advanced/network/README)
   - [PCIE 设备直通](/advanced/passthrough/README)
 
-- [**FAQ**](/FAQ/README)
+- [**FAQ**](/faq)
 
-- [贡献文档与代码](contribution.md)
+- [贡献文档与代码](contribution)
 
-- [关于与致谢](about.md)
+- [关于与致谢](about)
